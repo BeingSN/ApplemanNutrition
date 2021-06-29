@@ -57,7 +57,7 @@ body {
 
 
 .navbar {
-    height: 12vh;
+    height: 11vh;
 }
 
 nav .navbar-nav li a {
@@ -73,7 +73,7 @@ nav .navbar-nav li a {
     letter-spacing: 1px !important;
     margin-bottom: 5px !important;
     margin-top: 5px !important;
-    color: black;
+    color: black !important;
     /* margin-left: 15px; */
 }
 
@@ -580,11 +580,22 @@ hr {
 
     .dropdown-menu>li>a:hover {
         /* background-image: none; */
-        color: #C58F61;
+        color: white !important;
         background-color: white;
     }
 
     .dropdown-menu {
         background-color: #B58F61;
+        color: white !important;
+    }
+
+    nav .navbar-nav li a {
+        color: white !important;
+        padding: 15px !important;
+        border-bottom: 1px solid white;
+    }
+
+    nav .navbar-nav li a:hover {
+        color: white !important;
     }
 }
