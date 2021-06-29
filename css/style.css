@@ -1,0 +1,856 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato',
+        sans-serif;
+}
+
+.navbar-nav .nav-item .nav-link {
+    padding: 25px;
+    font-size: 15px;
+    font-weight: 300;
+    /* line-height: 25.5px; */
+}
+
+
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: #B58F61;
+}
+
+.button {
+    border-radius: 2px;
+    background-color: #B58F7E;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 1px;
+    width: 250px;
+    transition: all 0.5s;
+    cursor: pointer;
+    height: 40px;
+    position: absolute;
+    left: 40%;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -10px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover {
+    background-color: #9A7142;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+
+}
+
+.containerbg {
+    width: 100%;
+    height: 480.6pxf;
+    background-color: #E5E9F0;
+    position: relative;
+}
+
+.insideeee-connect-container {
+    width: 80%;
+    height: 40vh;
+    background-color: white;
+    position: absolute;
+    top: 75% !important;
+    left: 10%;
+
+}
+
+.abovefooter {
+    height: 50vh;
+    width: 100%;
+    background-image: url('../images/footer.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Footer {
+    background-color: #56334F;
+    width: 100% !important;
+    height: 55vh !important;
+    position: relative !important;
+}
+
+.Footer-left {
+    /* margin: 15px; */
+    padding: 45px !important;
+}
+
+.Footer-left>p {
+    color: white !important;
+
+}
+
+.footer-low {
+    background-color: #371C31;
+    width: 100%;
+    height: 6vh;
+}
+
+.low-footer-content {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.footer-img {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+}
+
+.footer-left {
+    padding: 35px;
+}
+
+.footer-left,
+a:hover {
+    color: #B58F5D;
+}
+
+/* body {
+    background-image: url("../images/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+} */
+
+
+p {
+    color: black !important;
+
+}
+
+.inside-philos-container {
+    background-color: white;
+    width: 50vw;
+    height: 40vh;
+    position: absolute;
+    left: 10%;
+    top: 25%;
+}
+
+
+
+
+.nutritionpara {
+    font-size: 25.6px;
+
+}
+
+.philosophy-cont {
+    position: relative;
+    height: 70vh;
+    width: 100%;
+    background-image: url('../images/philos.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.banner-images {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url('../images/banner1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+
+
+    animation-name: animate;
+    animation-direction: alternate;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    /* animation-play-state: running; */
+    /* animation-timing-function: ease-in-out; */
+
+}
+
+@keyframes animate {
+    0% {
+        background-image: url(../images/banner2.png);
+
+    }
+
+    20% {
+        background-image: url(../images/banner3.png);
+    }
+
+    40% {
+        background-image: url(../images/banner4.png);
+    }
+
+    60% {
+        background-image: url(../images/banner5.png);
+    }
+
+    80% {
+        background-image: url(../images/banner1.png);
+    }
+
+    100% {
+        background-image: url(../images/banner1.png);
+    }
+
+}
+
+.brand-image {
+    width: 414.17px;
+    padding: 12px 0 1px 9px;
+    height: 85px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.nutriion-block {
+    padding: 10px;
+}
+
+.banner-image {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    right: 30%;
+
+
+
+}
+
+.nav-item a {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25.5px;
+
+}
+
+.myHeader {
+    background-color: white !important;
+    width: 100% !important;
+    height: 10vh;
+}
+
+/* .navbar>ul>li>a {
+    margin-left: 1px;
+    padding: 15px;
+} */
+
+.center-div {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.last-footer {
+    background-color: #371C31;
+    width: 100%;
+    height: 5vh;
+    color: white !important;
+}
+
+.center-div h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.center-div p {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+
+
+.welcome-container h1 {
+    /* padding-top: 5%; */
+    font-weight: bold;
+    letter-spacing: 5px;
+
+
+}
+
+.welcome-container h2 {
+    font-size: 25px;
+}
+
+
+
+
+hr {
+    width: 220px;
+    color: #b58f8d;
+    margin: 17px 0;
+}
+
+.welcome-container hr {
+    /* border-bottom: 1px solid #b58f8d; */
+    color: #b58f8d;
+    margin: 17px 0;
+    width: 220px;
+}
+
+.welcome-container p {
+    font-size: 17.6px;
+    line-height: 190%;
+    font-weight: bold;
+}
+
+.main-philosphy-container {
+    background-image: url('../images/philosphy.png');
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: 100% 200%;
+    position: relative;
+}
+
+.inside-container {
+    background-color: white;
+    position: absolute;
+    width: 52%;
+    height: 70%;
+    top: 20%;
+    left: 5%;
+}
+
+.nutritoion>ul {
+    margin-left: 25px;
+}
+
+.nutritoion>ul {
+    font-size: 1.1em;
+    color: #b58f8d;
+}
+
+.nutritoion>ul>li {
+    color: #b58f8d;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-left: 10%;
+}
+
+.nutritoion>ul>a {
+    text-decoration: none;
+}
+
+.connect-container {
+    background-color: #E5E9F0;
+    width: 100%;
+    height: 50vh;
+    position: relative;
+}
+
+.inside-connect-container {
+    background-color: white;
+    position: absolute;
+    width: 70%;
+    height: 50%;
+    top: 35%;
+    left: 15%;
+    /* position: relative; */
+}
+
+.inside-connect-container h1 {
+    color: #b58f8d;
+    font-size: 1.6rem;
+    padding-top: 18px;
+    font-weight: bold;
+    line-height: 140%;
+    /* font-weight: 400; */
+    line-height: 140%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.inside-connect-container p {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+    line-height: 140%;
+    letter-spacing: 2px;
+
+}
+
+strong {
+    font-weight: bold;
+    color: black;
+}
+
+.connect-button {
+    position: absolute;
+    left: 35%;
+    top: 40%;
+    height: 12%;
+    width: 23%;
+    background-color: #B58F61;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.connect-button span {
+    padding: 1px;
+}
+
+.connect-button:hover {
+    color: white;
+    background-color: #9E7546;
+    width: 30%;
+    transition: width 1s;
+
+}
+
+.fruits {
+    background-image: url('../images/fruits.png');
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: 100% 200%;
+}
+
+.fruitss {
+    background-image: url('../images/pizza.png');
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: 100% 200%;
+}
+
+.Footer {
+    width: 100%;
+    height: 44vh;
+    background-color: #56334F;
+    color: white;
+    position: relative;
+}
+
+.Footer,
+h4 {
+    font-weight: bold;
+    font-size: 22px;
+    word-spacing: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.Footer,
+h4 a {
+    text-decoration: none;
+    color: white;
+}
+
+.Footer,
+p {
+    font-size: 11px;
+    word-spacing: 5px;
+}
+
+.footer-content-left {
+    color: white;
+    position: absolute;
+    top: 7%;
+    left: 5%;
+}
+
+.footer-content-right {
+    position: absolute;
+    left: 88%;
+    top: 15%;
+}
+
+
+
+
+
+.logo {
+    /* background-image: url('../images/footerlogo.png'); */
+    width: 100%;
+    height: 100vh;
+    background-size: 100% 100%;
+}
+
+.footerrow {
+    background-color: #371C31;
+    /* width: 100%;
+    height: 5vh; */
+    color: white;
+}
+
+.center-div-nutrition {
+    position: absolute;
+    /* height: 9vh; */
+    width: 366px;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    background-color: white;
+}
+
+/* .center-div-nutrition h1 {
+    color: #C48E60;
+    font-size: 1.8rem;
+    padding: 8px 20px;
+    font-weight: bold;
+} */
+
+.center-div-services {
+    position: absolute;
+    /* height: 9vh; */
+    width: 366px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    background-color: white;
+}
+
+.center-div-services h1 {
+    color: #C48E60;
+    font-size: 1.8rem;
+    padding: 8px 20px
+}
+
+.services-right-box {
+    padding: 5% 8% 5% 5%
+}
+
+.services-right-box ul li {
+    color: black;
+    margin-left: 10px;
+}
+
+.services-li {
+    color: black;
+}
+
+.meal-support {
+    padding: 45px;
+}
+
+
+
+
+/* Media Queries Starts Here  */
+
+@media (min-width: 300px) and (max-width: 1069px) {
+    .main-philosphy-container {
+        position: relative;
+    }
+
+    .main-philosphy-container {
+        background-image: url('../images/philosphy.png');
+        width: 100vw;
+        height: 90vh;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        position: relative;
+    }
+
+
+
+    .inside-container {
+        /* background-color: pink !important; */
+        width: 80% !important;
+        height: 90% !important;
+        position: absolute;
+        top: 5%;
+    }
+
+    .inside-philos-container {
+        background-color: white;
+        width: 60vw;
+        height: 40vh;
+        position: absolute;
+        left: 10%;
+        top: 25%;
+    }
+
+    .philo-p {
+        font-size: 13.6px !important;
+        /* color: yellow; */
+    }
+
+    /* button {
+        display: flex !important;
+        justify-content: center !important;
+        margin-right: -90px !important;
+    } */
+
+    .inside-connect-container {
+        background-color: white;
+        position: absolute;
+        width: 78%;
+        height: 70%;
+        top: 10%;
+        left: 15%;
+        margin-left: 0px;
+        /* position: relative; */
+    }
+
+    .last-footer {
+        background-color: #371C31;
+        width: 100%;
+        height: 7vh;
+        color: white !important;
+        text-align: center;
+        padding: 12px;
+    }
+
+
+
+    .inside-connect-container h1 {
+        color: #b58f8d;
+        font-size: 1.2rem;
+        padding-top: 25px;
+        font-weight: bold;
+        /* line-height: 140%; */
+        /* font-weight: 400; */
+        /* line-height: 140%; */
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+
+    .inside-connect-container p {
+        font-size: 12px;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+    }
+
+    .connect-button {
+        position: absolute;
+        left: 22%;
+        top: 70%;
+        width: 60%;
+        background-color: #9E7546;
+        color: white;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 3px;
+    }
+
+    .lowest-footer {
+        /* display: none; */
+        font-weight: bold;
+    }
+
+
+
+    .nutritoion {
+        margin-right: 30%;
+        font-size: 85%;
+    }
+
+    .connect-button:hover {
+        color: white;
+    }
+
+    .footer-content-right {
+        position: absolute;
+        left: 88%;
+        top: 15%;
+        display: inline;
+    }
+
+    .Footer {
+        background-color: #56334F;
+        width: 100% !important;
+        height: 70vh !important;
+        position: relative !important;
+        text-align: center !important;
+    }
+
+    .banner-images {
+        position: relative;
+        width: 100%;
+
+    }
+
+    .para {
+        font-size: 30px;
+        color: rgb(134, 22, 22);
+    }
+
+    /* .navbar-brand {
+        width: 30px;
+        height: 20px;
+    } */
+
+    .banner-image {
+        margin-top: 30%;
+        margin-left: 25%;
+        width: 60%;
+        height: auto;
+    }
+
+    .banner-images {
+        position: relative;
+        height: 70vh;
+        width: 100%;
+        background-image: url('../images/banner1.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+
+        animation-name: animate;
+        animation-direction: alternate;
+        animation-duration: 30s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: infinite;
+        /* animation-play-state: running; */
+        /* animation-timing-function: ease-in-out; */
+
+    }
+
+    @keyframes animate {
+        0% {
+            background-image: url(../images/banner2.png);
+        }
+
+        20% {
+            background-image: url(../images/banner3.png);
+        }
+
+        40% {
+            background-image: url(../images/banner4.png);
+        }
+
+        60% {
+            background-image: url(../images/banner5.png);
+        }
+
+        80% {
+            background-image: url(../images/banner1.png);
+        }
+
+        100% {
+            background-image: url(../images/banner1.png);
+        }
+
+    }
+
+
+    .banner-image {
+        position: absolute;
+        top: 20%;
+        left: 0%;
+        /* right: -50%; */
+
+
+
+    }
+
+    .nav-item {
+        background-color: #B58F61;
+        width: 100%;
+        color: white !important;
+    }
+
+    .nav-item a {
+        width: 100%;
+        text-align: left;
+        margin-left: 15px;
+        /* padding: 5px; */
+        color: white !important;
+    }
+
+    .navbar {
+        height: 5vh;
+
+    }
+
+    .brand-image {
+        width: 500px;
+        height: 40px;
+
+    }
+
+
+    .navbar-toggler {
+        /* float: right !important;
+        float: none;
+        margin-right: 0;
+        width: 100%;
+        color: aquamarine; */
+        border: none !important;
+        text-align: center;
+    }
+
+    .connect-button {
+        /* display: flex; */
+        /* justify-content: center; */
+        position: absolute !important;
+        left: 30% !important;
+    }
+
+
+
+    .insideeee-connect-container {
+        width: 80%;
+        height: 30vh;
+        background-color: white;
+        position: absolute;
+        top: 25%;
+        left: 10%;
+
+    }
+}

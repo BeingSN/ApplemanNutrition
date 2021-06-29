@@ -1,0 +1,459 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#navbarDropdown {
+    font-size: 15px;
+    line-height: 25.5px;
+
+}
+
+.dropdown-menu>li>a:hover {
+    /* background-image: none; */
+    color: #C79D65;
+}
+
+.dropdown>.dropdown-menu {
+    margin-top: 5px;
+
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    /* width: 150%; */
+
+}
+
+.diss {
+    line-height: 35px;
+}
+
+.banner-images {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url('../images/banner1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+    animation-name: animate;
+    animation-direction: alternate;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    /* animation-play-state: running; */
+    /* animation-timing-function: ease-in-out; */
+
+}
+
+@keyframes animate {
+    0% {
+        background-image: url(../images/banner2.png);
+
+    }
+
+    20% {
+        background-image: url(../images/banner3.png);
+    }
+
+    40% {
+        background-image: url(../images/banner4.png);
+    }
+
+    60% {
+        background-image: url(../images/banner5.png);
+    }
+
+    80% {
+        background-image: url(../images/banner1.png);
+    }
+
+    100% {
+        background-image: url(../images/banner1.png);
+    }
+
+}
+
+.banners-images {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url('../images/eating1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.bannerss-images {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url('../images/eating2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bannersss-images {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url('../images/padetric1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bannerssss-images {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url('../images/lady.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bannersssss-images {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url('../images/pain.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.nutri-image {
+    position: absolute;
+    width: 346.01px;
+    height: 50px;
+    /* padding: 40px; */
+    left: 40%;
+    top: 70%;
+}
+
+.main-heading {
+    font-size: 22.4px;
+    letter-spacing: 2px;
+    line-height: 33.44px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #C79D65 !important;
+}
+
+.main-headings {
+    font-size: 22.4px;
+    letter-spacing: 2px;
+    line-height: 33.44px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 45px;
+    color: #C79D65 !important;
+}
+
+hr {
+    color: #C79D65 !important;
+    width: 210px;
+    /* height: 90%; */
+    font-weight: bold;
+}
+
+.main-para {
+    font-size: 19px;
+    line-height: 33.4px;
+
+}
+
+.services-description>ul>li {
+    font-size: 15.6px;
+    font-weight: 300;
+    /* letter-spacing: 2px; */
+    line-height: 33.4px;
+    text-decoration: none solid rgb(0, 0, 0);
+    text-transform: uppercase;
+}
+
+.mains-connect-container {
+    background-color: #E5E9F0;
+    height: 480px;
+    min-height: 50px;
+}
+
+.main-connect-col {
+    background-color: #E5E9F0;
+    height: 480px;
+    position: relative;
+}
+
+.inside-connect-col {
+    background-color: white;
+    height: 240.6px;
+    width: 957.1px;
+
+    position: absolute;
+    top: 10%;
+    left: 21%;
+}
+
+.ul-dis {
+    font-size: 20px;
+}
+
+.connect_button {
+    /* border-radius: 4px; */
+    position: absolute;
+    left: 37%;
+    background-color: #9A7142;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    width: 250px;
+    height: 40px;
+    transition: all 0.5s;
+    cursor: pointer;
+
+}
+
+.connect_button span {
+    font-size: 17.6px;
+    font-weight: 300;
+    text-decoration: none rgb(255, 255, 255);
+    text-align: center;
+    word-spacing: 0;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.connect_button span::after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+
+
+.connect_button:hover span {
+    margin-right: 20px;
+}
+
+.connect_button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.health-pic {
+    position: relative;
+    z-index: 0;
+}
+
+.insides-container {
+    width: 54%;
+    height: 58%;
+    margin-top: 85px;
+    background-color: white;
+    position: absolute;
+    left: 43%;
+}
+
+
+.insides-container p {
+    font-size: 30.2px;
+    text-align: center;
+    line-height: 40.8px;
+    margin-top: 7%;
+    color: #C58F61 !important;
+}
+
+.outer-container {
+    height: 480px;
+    width: 100%;
+    background-color: #E5E9F0;
+    position: relative;
+}
+
+.inside-outer-container {
+    width: 54%;
+    height: 50%;
+    margin-top: 85px;
+    background-color: white;
+    position: absolute;
+    left: 7%;
+    top: 2%;
+    z-index: 10 !important;
+}
+
+.inside-outer-container p {
+    font-size: 30.2px;
+    text-align: center;
+    line-height: 42.8px;
+    margin-top: 2% !important;
+    color: #C58F61 !important;
+}
+
+/* @Media Queries */
+
+@media (min-width: 300px) and (max-width: 1069px) {
+    * {
+        margin: 1;
+        padding: 1;
+        box-sizing: border-box;
+
+    }
+
+    .nut-heading {
+        padding: 1px !important;
+    }
+
+    .main-para {
+        font-size: 16px;
+
+    }
+
+    .main-heading {
+        padding: 0 !important;
+        margin-right: 20 !important;
+        font-size: 20.4px !important;
+    }
+
+    .familybased {
+        width: 95% !important;
+        /* padding-right: 550px !important; */
+        margin-left: 5% !important;
+        height: 350px !important;
+    }
+
+    .ind-image {
+        width: 98% !important;
+        /* padding-right: 550px !important; */
+        margin-left: 5% !important;
+        height: 350px !important;
+    }
+
+    #meal-col {
+        /* margin-right: 1px !important; */
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .inside-connect-col {
+        background-color: white;
+        height: 300.6px;
+        /* height: auto; */
+        width: 497.1px;
+        margin: 30px 3px 40px 3px !important;
+        padding: 10px 50px 50px 50px;
+        position: relative;
+    }
+
+    .connect_button {
+        /* border-radius: 4px; */
+        position: absolute;
+        left: 27%;
+        background-color: #9A7142;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        width: 250px;
+        height: 40px;
+        transition: all 0.5s;
+        cursor: pointer;
+
+    }
+
+    .upcontent {
+        font-size: 11px !important;
+        /* font-weight: bold; */
+        letter-spacing: 1px;
+        margin: 3px;
+    }
+
+    .nutri-image {
+        position: absolute !important;
+        width: 346.01px;
+        height: 35px;
+        /* padding: 40px; */
+        left: 20% !important;
+        top: 65%;
+    }
+
+    .main-connect-col {
+        background-color: #E5E9F0;
+        height: 640px !important;
+        width: 100vw;
+        position: relative;
+    }
+
+    .health-pic {
+        width: 89% !important;
+        margin-left: 5% !important;
+        margin-top: 10%;
+    }
+
+    .insides-container {
+        width: 85.5%;
+        height: 27%;
+        margin-top: 85px;
+        background-color: white;
+        position: absolute;
+        left: 6.9%;
+        top: 55%;
+    }
+
+    .insides-container p {
+        font-size: 4vw;
+        text-align: center;
+        line-height: 25.8px;
+        margin-top: 5%;
+        color: #C58F61 !important;
+    }
+
+
+    .outer-container {
+        height: 710px !important;
+        width: 100%;
+        background-color: #E5E9F0;
+        position: relative;
+    }
+
+
+    .inside-outer-container {
+        width: 85%;
+        height: 27%;
+        margin-top: 85px;
+        background-color: white;
+        position: absolute;
+        left: 7% !important;
+        top: 55%;
+    }
+
+    .inside-outer-container p {
+        font-size: 4vw;
+        text-align: center;
+        line-height: 25.8px;
+        margin-top: 12%;
+        color: #C58F61 !important;
+    }
+}
