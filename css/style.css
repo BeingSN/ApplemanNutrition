@@ -6,7 +6,9 @@
         sans-serif;
 }
 
-
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
 
 .button {
     border-radius: 2px;
