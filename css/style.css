@@ -6,19 +6,7 @@
         sans-serif;
 }
 
-.navbar-nav .nav-item .nav-link {
-    padding: 25px;
-    font-size: 15px;
-    font-weight: 300;
-    /* line-height: 25.5px; */
-}
 
-
-
-.navbar-nav .nav-item.active .nav-link,
-.navbar-nav .nav-item:hover .nav-link {
-    color: #B58F61;
-}
 
 .button {
     border-radius: 2px;
@@ -268,12 +256,7 @@ p {
 
 }
 
-.nav-item a {
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 25.5px;
 
-}
 
 .myHeader {
     background-color: white !important;
@@ -281,10 +264,7 @@ p {
     height: 10vh;
 }
 
-/* .navbar>ul>li>a {
-    margin-left: 1px;
-    padding: 15px;
-} */
+
 
 .center-div {
     width: 100%;
@@ -585,8 +565,6 @@ p {
 .meal-support {
     padding: 45px;
 }
-
-
 
 
 /* Media Queries Starts Here  */

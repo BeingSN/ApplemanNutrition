@@ -9,42 +9,21 @@ body {
     overflow-x: hidden;
 }
 
-.nav a {
-    color: white !important;
-    font-size: 3.8em !important;
+nav .navbar-nav li a {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20.5px;
+    text-transform: uppercase;
+    padding: 7px 5px 7px 5px !important;
+    height: 24.8px;
+    /* width: 75.7625px; */
+    margin-right: 22px;
+    color: black;
+    /* margin-left: 15px; */
 }
 
-/* .navbar-nav>li {
-    padding-left: 30px;
-    padding-right: 30px;
-} */
-
-.navbar-nav>li {
-    /* margin-left: 1px !important; */
-    margin-right: 1px !important;
-    font-size: 45px !important;
-    /* padding: 7px 5px 7px 5px; */
-}
-
-#navbarDropdown {
-    font-size: 15px;
-    line-height: 25.5px;
-}
-
-.dropdown-menu>li>a:hover {
-    /* background-image: none; */
-    color: #C79D65;
-}
-
-.dropdown>.dropdown-menu {
-    margin-top: 5px;
-
-}
-
-.dropdown:hover>.dropdown-menu {
-    display: block;
-    /* width: 150%; */
-
+nav .navbar-nav li a:hover {
+    color: #B58F61 !important;
 }
 
 .diss {
