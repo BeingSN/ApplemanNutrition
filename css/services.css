@@ -410,7 +410,7 @@ hr {
     .my-logo {
         margin-top: 0px !important;
         /* height: 10vh !important; */
-        /* margin-left: 50px !important; */
+        margin-left: 50px !important;
 
     }
 
@@ -581,7 +581,7 @@ hr {
     .dropdown-menu>li>a:hover {
         /* background-image: none; */
         color: white !important;
-        background-color: white;
+        background-color: #9A7142;
     }
 
     .dropdown-menu {
