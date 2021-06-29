@@ -595,11 +595,16 @@ p {
 
     .inside-philos-container {
         background-color: white;
-        width: 60vw;
+        width: 78vw !important;
         height: 40vh;
         position: absolute;
         left: 10%;
         top: 25%;
+    }
+
+    .inside-philos-container p {
+        font-size: 18px;
+        line-height: 22px;
     }
 
     .philo-p {
