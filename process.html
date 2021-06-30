@@ -59,6 +59,10 @@
                         </ul>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="nutritionist.html">NUTRITIONISTS
+                        </a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="ysk.html">YSK</a>
                     </li>
                     <li class="nav-item">
@@ -101,7 +105,8 @@
                                 OUR
                                 FOUNDER, REBECCA</h2>
                             <hr style="margin-left: 4%;">
-                            <p class="main-para ms-5">Your Nutrition Care begins with a phone conversation with our
+                            <p class="main-para ms-5 process-para">Your Nutrition Care begins with a phone conversation
+                                with our
                                 Founder
                                 and Executive
                                 Director, <a href="#" style="color: #B58F61; font-weight: bold;"> Rebecca Appleman,
@@ -124,7 +129,8 @@
 
                             <h2 class=" main-heading reach-button">THE INITIAL CONSULTATION</h2>
                             <hr style="margin-left: 4%;">
-                            <p class="main-para ms-5">This first session is a jumping off point for your entire
+                            <p class="main-para ms-5 process-para">This first session is a jumping off point for your
+                                entire
                                 treatment process — sometimes the work is shorter term and sometimes it’s a longer
                                 process. Either way, we’re by your side for each and every step. Our goal during our
                                 first meeting is to gain a global understanding of who you are; we’ll want to learn
@@ -136,13 +142,15 @@
 
                             <h2 class=" main-heading reach-button">FOLLOW-UP SESSIONS</h2>
                             <hr style="margin-left: 4%;">
-                            <p class="main-para ms-5">These 45-60 minute meetings support the work that you started to
+                            <p class="main-para ms-5 process-para">These 45-60 minute meetings support the work that you
+                                started to
                                 define during your Initial Consultation. Our goal is to create an environment in which
                                 clients feel at ease discussing their patterns and behaviors with food.</p>
 
                             <h2 class=" main-heading reach-button">OUR OFFICES</h2>
                             <hr style="margin-left: 4%;">
-                            <p class="main-para ms-5">Our offices are conveniently located and easily accessible in
+                            <p class="main-para ms-5 process-para">Our offices are conveniently located and easily
+                                accessible in
                                 midtown Manhattan, lower Westchester and Greenwich, CT and all are designed to feel
                                 private and serene. Our interiors are warm and welcoming and the decor is contemporary
                                 but cozy. We’ve designed spaces comfortable for traditional nutrition counseling
@@ -160,12 +168,98 @@
 
 
     <div class="after-process-image">
+    </div>
 
+
+    <div class="container-fluid frequent-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-md-10 col-sm-12 ">
+                    <h1 class="pt-3 mt-5 nut-heading ms-3 freq-heading " style="letter-spacing: 5px;">FREQUENTLY ASKED
+                        QUESTIONS</h1>
+                    <hr class="ms-3" style="border-bottom: 2px solid#B58F61; width: 100%;">
+                    <button class="accordion">I think I’d like to come in, what’s my first step?</button>
+
+                    <div class="panel">
+                        <p class="main-para mt-4">You’ve already taken it by visiting our website! To further discuss
+                            your
+                            individual needs and goals, contact us to schedule a complimentary discovery phone call.
+                            Rebecca
+                            will speak with you to learn more about your issues of priority and particular goals and
+                            she’ll
+                            walk you through best next steps and scheduling.</p>
+                    </div>
+
+
+                    <button class="accordion ">My schedule is packed - are your hours flexible?</button>
+
+                    <div class="panel">
+
+                        <p class="main-para mt-4">We do our best in every case to get new clients onto our calendar as
+                            expeditiously as possible. To that end, we see clients 7 days per week and we offer session
+                            times in the morning, afternoon and evening in each of our offices.</p>
+                    </div>
+
+                    <button class="accordion ">Are your services reimbursed by Insurance?</button>
+
+                    <div class="panel">
+
+
+                        <p class="main-para mt-4">Our practice does not accept private Insurance, Medicare or Medicaid.
+                            Upon
+                            receipt of payment via credit card or ACH debit, a detailed receipt including diagnosis and
+                            procedure coding is sent to you via confidential email for your individual submission to
+                            your
+                            Insurance carrier for reimbursement via an out-of-network benefit.</p>
+                    </div>
+
+                    <button class="accordion ">Do you sell "packages” of sessions?</button>
+
+                    <div class="panel">
+
+                        <p class="main-para mt-4">We do not sell session packages. The work that we do together is
+                            entirely
+                            client centered; individual needs and goals are routinely assessed and treatment plans and
+                            recommendations are defined and redefined in response to the client’s progress.</p>
+                    </div>
+
+                    <button class="accordion">Do you offer “virtual” sessions if I cannot make it into the office in
+                        person?</button>
+
+                    <div class="panel">
+
+                        <p class="main-para mt-0">We offer virtual sessions to our clients who are not local or for
+                            those
+                            whose schedules include regular travel for business, academics, personal or other reasons.
+                            That
+                            said, it is always our preference for the Initial Consultation to be an in-person meeting.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
 
 
-
+    <div class="container-fluid main-connect-col">
+        <div class="row">
+            <div class="col-lg-10 col-md-10 col-sm-12 mx-auto inside-connect-col">
+                <div class="heading-box">
+                    <h2 class="  main-headings">CONNECT WITH OUR DIRECTOR, REBECCA APPLEMAN, RD</h2>
+                    <p style="font-size: 20.8px; font-weight: 300; line-height: 39.52px;" class="text-center">
+                        Schedule
+                        a <strong>
+                            complimentary
+                            call
+                        </strong> to
+                        discuss your nutrition
+                        goals.</p>
+                    <button class="connect_button"><span>SCHEDULE A PHONE CALL</span></button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
@@ -254,18 +348,21 @@
 
 
 
-
     <script>
-        // var hidden = false;
+        var acc = document.getElementsByClassName("accordion");
+        var i;
 
-        // setInterval(function () {
-        //     document.getElementById("banner_image").style.visibility = hidden ? "visible" : "hidden";
-        //     hidden = !hidden;
-        // }, 2000);
-
-        // window.onload = function () {
-        //     window.setTimeout('document.querySelector("banner_image").style.display = "inline";', 40000);
-        // }
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
     </script>
 
 
