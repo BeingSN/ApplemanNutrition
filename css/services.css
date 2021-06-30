@@ -201,6 +201,17 @@ nav .navbar-nav li a:hover {
     background-attachment: fixed;
 }
 
+.bannersssssss-images {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url('../images/meeting.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 .nutri-image {
     position: absolute;
     width: 346.01px;
@@ -235,6 +246,17 @@ hr {
     width: 210px;
     /* height: 90%; */
     font-weight: bold;
+}
+
+.know-heading {
+    margin: 40px;
+    letter-spacing: 3px;
+}
+
+.know-container {
+    background-color: #E5E9F0;
+    height: 90vh;
+    width: 100%;
 }
 
 .my_hr {
@@ -391,7 +413,27 @@ hr {
     margin: 15px 0 15px 15px;
 }
 
+.card-title {
+    color: #B58F61;
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 19.6px;
+    font-weight: bold;
+}
 
+.line {
+    border-bottom: 1px solid #B58F61;
+    margin-top: 15px;
+    width: 79%;
+}
+
+.card-text {
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 14.3px;
+    font-weight: bold;
+    margin-top: 15px;
+}
 
 /* @Media Queries */
 
