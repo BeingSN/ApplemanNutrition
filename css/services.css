@@ -45,17 +45,6 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 .navbar {
     height: 11vh;
 }
@@ -212,6 +201,39 @@ nav .navbar-nav li a:hover {
     background-attachment: fixed;
 }
 
+.bannerssssssss-images {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url('../images/fruit1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.after-process-image {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url('../images/process.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.abovesfooter {
+    height: 50vh;
+    width: 100%;
+    margin-left: 0;
+    background-image: url('../images/dinner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 .nutri-image {
     position: absolute;
     width: 346.01px;
@@ -255,7 +277,7 @@ hr {
 
 .know-container {
     background-color: #E5E9F0;
-    height: 150vh;
+    height: 110vh;
     width: 100%;
 }
 
@@ -299,7 +321,7 @@ hr {
 .inside-connect-col {
     background-color: white;
     height: 240.6px;
-    width: 957.1px;
+    width: 977.1px;
     position: absolute;
     top: 20%;
     left: 18%;
@@ -434,6 +456,79 @@ hr {
     font-weight: bold;
     margin-top: 15px;
 }
+
+.process-main-container {
+    background-color: white;
+    height: 160vh !important;
+    width: 100%;
+}
+
+
+.process-heading {
+    font-size: 38.4px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    line-height: 49.92pxs;
+    margin: 5%;
+}
+
+.process-connect_button {
+    /* border-radius: 4px; */
+    position: absolute;
+    left: 67%;
+    background-color: #9A7142;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    width: 280px;
+    height: 40px;
+    transition: all 0.5s;
+    cursor: pointer;
+
+}
+
+.process-connect_button span {
+    font-size: 17.6px;
+    font-weight: 300;
+    text-decoration: none rgb(255, 255, 255);
+    text-align: center;
+    word-spacing: 0;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.process-connect_button span::after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+
+
+.process-connect_button:hover span {
+    margin-right: 4px;
+}
+
+.process-connect_button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+.reach-button {
+    margin-left: 45px;
+    margin-top: 5% !important;
+}
+
+
+
+
+
 
 /* @Media Queries */
 
