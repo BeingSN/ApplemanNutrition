@@ -10,9 +10,14 @@ body {
 }
 
 
+.welcome-philos {
+    padding-top: 35px;
+}
+
+
+
 
 /* Accordion Css */
-
 
 .accordion {
     background-color: white;
@@ -329,7 +334,7 @@ hr {
     height: 220.6px;
     width: 977.1px;
     position: absolute;
-    top: 8%;
+    top: 20%;
     left: 18%;
 }
 
@@ -552,6 +557,7 @@ hr {
 
     .welcome-philos {
         text-align: center;
+
     }
 
     .my-logo {
@@ -583,7 +589,13 @@ hr {
 
 
     .nut-heading {
-        padding: 1px !important;
+        margin-top: 1px !important;
+        font-size: 24px !important;
+        font-weight: 300;
+        letter-spacing: 3px !important;
+        line-height: 31.2px;
+        margin-left: 15px;
+        margin-top: 0 !important;
     }
 
     .main-para {
@@ -600,15 +612,25 @@ hr {
 
     .main-heading {
         padding: 0 !important;
-        margin-right: 20 !important;
-        font-size: 20.4px !important;
+        margin-left: 1px !important;
+        font-size: 17.6px !important;
+    }
+
+    .ind-heading {
+        margin-left: 12px !important;
     }
 
     .familybased {
-        width: 95% !important;
+        width: 100% !important;
         /* padding-right: 550px !important; */
-        margin-left: 5% !important;
-        height: 350px !important;
+        margin-left: 0% !important;
+        height: 250px !important;
+        box-sizing: border-box !important;
+    }
+
+    .servic-heading {
+        margin-top: 15px !important;
+        padding: 15px;
     }
 
     .ind-image {
@@ -622,6 +644,12 @@ hr {
         /* margin-right: 1px !important; */
         padding: 0 !important;
         margin: 0 !important;
+    }
+
+    .meal-head {
+        text-align: left !important;
+        margin-left: 16% !important;
+
     }
 
     .inside-connect-col {
@@ -673,6 +701,21 @@ hr {
         position: relative;
     }
 
+    .main-connect-cols {
+        background-color: #E5E9F0;
+        height: 590px !important;
+        width: 100vw;
+        position: relative;
+    }
+
+    .main-connect-colss {
+        background-color: #E5E9F0;
+        height: 700px !important;
+        width: 100vw;
+        position: relative;
+    }
+
+
     .health-pic {
         width: 89% !important;
         margin-left: 5% !important;
@@ -690,7 +733,7 @@ hr {
     }
 
     .insides-container p {
-        font-size: 4vw;
+        font-size: 17.6px;
         text-align: center;
         line-height: 25.8px;
         margin-top: 5%;
@@ -792,6 +835,10 @@ hr {
         background-attachment: fixed;
     }
 
+    .nutri-para {
+        font-size: 16px !important;
+    }
+
     .abovesfooter {
         height: 40vh;
         width: 100%;
@@ -848,6 +895,35 @@ hr {
     }
 
     .process-para {
-        margin-left: 15px !important;
+        margin-left: 12px !important;
+    }
+
+    .welcome-heading {
+        margin-left: 15px;
+    }
+
+    .meal-support {
+        margin-top: 35px !important;
+        padding: 0px;
+    }
+
+    .service-image-2 {
+        width: 100% !important;
+        /* padding-right: 550px !important; */
+        margin-left: 0% !important;
+        height: 250px !important;
+        box-sizing: border-box !important;
+    }
+
+    .process-main-container {
+        background-color: white;
+        height: 200% !important;
+        width: 100%;
+    }
+
+    .frequent-container {
+        height: 65vh;
+        background-color: white;
+        width: 100%;
     }
 }
