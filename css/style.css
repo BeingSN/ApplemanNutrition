@@ -79,6 +79,7 @@
 .abovefooter {
     height: 50vh;
     width: 100%;
+    margin-left: 0;
     background-image: url('../images/footer.png');
     background-size: cover;
     background-position: center;

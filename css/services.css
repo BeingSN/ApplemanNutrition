@@ -255,7 +255,7 @@ hr {
 
 .know-container {
     background-color: #E5E9F0;
-    height: 90vh;
+    height: 150vh;
     width: 100%;
 }
 
@@ -640,4 +640,28 @@ hr {
     nav .navbar-nav li a:hover {
         color: white !important;
     }
+
+    .know-container {
+        background-color: white;
+        height: 250vh;
+        width: 100%;
+    }
+
+    .card {
+        margin-bottom: 15px;
+        margin-left: 1px;
+        width: 30rem !important;
+        border: none !important;
+    }
+
+    .card-body {
+        border: none !important;
+    }
+
+    .card-title,
+    .card-text {
+        padding: 5px;
+    }
+
+
 }
