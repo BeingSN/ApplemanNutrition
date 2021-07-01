@@ -2,6 +2,13 @@
 <html lang="en">
 
 <head>
+    <script>
+        function showDiv() {
+            document.querySelector(".centered").style.visibility = "visible";
+        }
+        setTimeout("showDiv()", 1000);
+    </script>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -24,7 +31,7 @@
             <a class="navbar-brand" href="index.html"> <img src="images/logo.png" class="my-logo" class="brand-image"
                     style="width: 85%; margin-left: 5%; padding-bottom: 10%; margin-top: 10%; " alt="">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            <button class="navbar-toggler my-toggleicon" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -59,7 +66,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">NUTRITIONISTS
+                        <a class="nav-link active" aria-current="page" href="nutritionist.html">NUTRITIONISTS
                         </a>
                     </li>
                     <li class="nav-item">
@@ -78,7 +85,9 @@
         </nav>
     </div>
     <div class="banner-images">
-        <img id="banner_image" class="nutri-image" src="images/nutri.PNG" alt="">
+        <!-- <img id="banner_image" class="nutri-image" src="images/nutri.PNG" alt=""> -->
+        <div style="visibility: hidden;" class="centered">NUTRITION SERVICES</div>
+        <br>
     </div>
     <!-- <div></div> -->
     <div class="container">

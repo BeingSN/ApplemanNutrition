@@ -14,7 +14,19 @@ body {
     padding-top: 35px;
 }
 
-
+.centered {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    background-color: white;
+    color: #B88E60;
+    /* font-weight: bold; */
+    font-size: 28.8px;
+    line-height: 40.32px;
+    padding: 11px 15px 11px 15px;
+    letter-spacing: 6px;
+    transform: translate(-50%, -50%);
+}
 
 
 /* Accordion Css */
@@ -217,6 +229,28 @@ nav .navbar-nav li a:hover {
     background-attachment: fixed;
 }
 
+.bannersssssssss-images {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url('../images/contactburger.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bannerssssssssss-images {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url('../images/downbaner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 .after-process-image {
     position: relative;
     height: 100vh;
@@ -226,6 +260,13 @@ nav .navbar-nav li a:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+.contact-container {
+    background-color: white;
+    height: 45vh;
+    width: 100%;
+    position: relative;
 }
 
 .abovesfooter {
@@ -389,6 +430,75 @@ hr {
     right: 0;
 }
 
+.button {
+    border-radius: 4px;
+    background-color: #B58F61;
+    border: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding-right: 10px;
+    width: 350px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    position: absolute;
+    left: 15%;
+}
+
+.button:hover {
+    background-color: #9A7142;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    /* right: -20px; */
+    transition: 0.5s;
+
+}
+
+.button:hover span {
+    padding-right: 50px;
+    font-size: 18px !important;
+    padding-left: 5px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .health-pic {
     position: relative;
     z-index: 0;
@@ -520,6 +630,21 @@ hr {
 }
 
 
+.client-heading {
+    padding-top: 30px;
+}
+
+.para-div {
+    margin-top: 5%;
+}
+
+.contact-para {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 20px;
+    word-spacing: 0px;
+    margin-left: 10% !important;
+}
 
 .process-connect_button:hover span {
     margin-right: 4px;
@@ -535,6 +660,25 @@ hr {
     margin-left: 45px;
     margin-top: 5% !important;
 }
+
+.location-container {
+    background-color: white;
+    width: 100%;
+    height: 70vh;
+}
+
+
+.locations {
+    line-height: 18px !important;
+}
+
+
+.mains-para {
+    font-size: 19px;
+    /* line-height: 33.4px; */
+
+}
+
 
 
 
@@ -926,4 +1070,104 @@ hr {
         background-color: white;
         width: 100%;
     }
+
+    .upcontent {
+        margin-top: 0px !important;
+    }
+
+
+    .contact-container {
+        background-color: white;
+        height: 60vh;
+        width: 100%;
+        position: relative;
+    }
+
+    .connects_button {
+        /* border-radius: 4px; */
+        position: absolute !important;
+        left: 3% !important;
+        top: 40% !important;
+        background-color: #C59661;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        width: 270px;
+        height: 40px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5%;
+
+    }
+
+    .client-heading {
+        /* padding-top: 1px !important; */
+        margin-top: 25px !important;
+    }
+
+    .hr {
+        margin-left: 2% !important;
+        width: 20% !important;
+    }
+
+    .office-heading {
+        margin-top: 15% !important;
+        /* margin-top: 85px !important; */
+    }
+
+    .para-div {
+        /* margin-top: 45%; */
+        text-align: left;
+        margin-left: 0% !important;
+        position: absolute;
+        left: 4% !important;
+        top: 69%;
+        line-height: 1px !important;
+    }
+
+
+
+
+    .button {
+        border-radius: 4px;
+        background-color: #B58F61;
+        border: none;
+        color: #FFFFFF;
+        font-size: 20px;
+        padding-right: 10px;
+        width: 300px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+    }
+
+    .button:hover {
+        background-color: #9A7142;
+    }
+
+    .button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+
+    .button span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        /* right: -20px; */
+        transition: 0.5s;
+    }
+
+    .button:hover span {
+        padding-right: 50px;
+    }
+
+    .button:hover span:after {
+        opacity: 1;
+        right: 0;
+    }
+
 }
