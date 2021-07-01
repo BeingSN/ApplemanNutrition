@@ -269,6 +269,14 @@ nav .navbar-nav li a:hover {
     position: relative;
 }
 
+.Footer {
+    width: 100%;
+    height: 40vh;
+    background-color: #56334F;
+    color: white;
+    position: relative;
+}
+
 .abovesfooter {
     height: 50vh;
     width: 100%;
@@ -419,7 +427,14 @@ hr {
     transition: 0.5s;
 }
 
+.Footerlogo {
+    width: 17% !important;
+    height: 22%;
+    position: absolute;
+    right: 5%;
+    top: 70%;
 
+}
 
 .connect_button:hover span {
     margin-right: 20px;
@@ -477,27 +492,11 @@ hr {
     right: 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footers-icons {
+    position: absolute;
+    top: 18%;
+    right: 4%;
+}
 
 .health-pic {
     position: relative;
@@ -679,6 +678,17 @@ hr {
 
 }
 
+
+.contactfooter {
+    height: 50vh;
+    width: 100%;
+    margin-left: 0;
+    background-image: url('../images/contactfo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 
 
 
@@ -1170,4 +1180,62 @@ hr {
         right: 0;
     }
 
+    .footers-icons {
+        position: absolute;
+        top: 70%;
+        right: 40%;
+    }
+
+    .Footerlogo {
+        width: 45% !important;
+        height: 15%;
+        position: absolute;
+        left: 28%;
+        top: 82%;
+        opacity: 0.7 !important;
+
+    }
+
+    .Footer-left>h4 {
+        font-size: 16px;
+        letter-spacing: 0.9px;
+        text-align: center;
+
+    }
+
+    .Footer-left>p {
+        font-size: 12.8px;
+        letter-spacing: 0.9px !important;
+        text-align: center;
+        line-height: 15px;
+        word-spacing: 3px;
+    }
+
+    .Footer {
+        background-color: #56334F;
+        width: 100% !important;
+        height: 75vh !important;
+        position: relative !important;
+    }
+
+    .last-footer {
+        background-color: #371C31;
+        width: 100%;
+        height: 82px !important;
+        color: white !important;
+        text-align: center;
+        line-height: 0;
+    }
+
+    .last-footerp {
+        margin-top: 5% !important;
+        line-height: 0px !important;
+        font-size: 12px !important;
+    }
+
+    .last-footerps {
+        margin-top: 2% !important;
+        font-size: 11px !important;
+        margin-left: 35px !important;
+    }
 }

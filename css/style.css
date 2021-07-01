@@ -87,6 +87,16 @@
     background-attachment: fixed;
 }
 
+.indexfooter {
+    height: 50vh;
+    width: 100%;
+    margin-left: 0;
+    background-image: url('../images/indeximage.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 
 
 .Footer {
@@ -98,12 +108,22 @@
 
 .Footer-left {
     /* margin: 15px; */
-    padding: 45px !important;
+    padding: 105px !important;
+    padding-top: 85px !important;
+    padding-bottom: 3px;
+}
+
+.Footer-left>h4 {
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-align: left;
 }
 
 .Footer-left>p {
     color: white !important;
-
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 12.8px;
 }
 
 .footer-low {
@@ -271,7 +291,7 @@ p {
 .last-footer {
     background-color: #371C31;
     width: 100%;
-    height: 5vh;
+    height: 15% !important;
     color: white !important;
 }
 
@@ -443,13 +463,6 @@ strong {
     background-size: 100% 200%;
 }
 
-.Footer {
-    width: 100%;
-    height: 44vh;
-    background-color: #56334F;
-    color: white;
-    position: relative;
-}
 
 .Footer,
 h4 {
@@ -619,17 +632,6 @@ p {
         margin-left: 0px;
         /* position: relative; */
     }
-
-    .last-footer {
-        background-color: #371C31;
-        width: 100%;
-        height: 7vh;
-        color: white !important;
-        text-align: center;
-        padding: 12px;
-    }
-
-
 
     .inside-connect-container h1 {
         color: #b58f8d;
@@ -827,4 +829,6 @@ p {
         left: 10%;
 
     }
+
+
 }
