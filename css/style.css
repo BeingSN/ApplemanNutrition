@@ -705,11 +705,6 @@ p {
         color: rgb(134, 22, 22);
     }
 
-    /* .navbar-brand {
-        width: 30px;
-        height: 20px;
-    } */
-
     .banner-image {
         margin-top: 30%;
         margin-left: 25%;
@@ -797,6 +792,7 @@ p {
     .brand-image {
         width: 500px;
         height: 40px;
+
 
     }
 
