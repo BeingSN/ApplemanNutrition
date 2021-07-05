@@ -158,6 +158,10 @@ nav .navbar-nav li a:hover {
 
 }
 
+.about-apple {
+    margin-bottom: 12%;
+}
+
 .banners-images {
     position: relative;
     height: 100vh;
@@ -401,7 +405,7 @@ hr {
     height: 220.6px;
     width: 977.1px;
     position: absolute;
-    top: 20%;
+    top: 10%;
     left: 18%;
 }
 
@@ -853,33 +857,66 @@ option {
     .nut-heading {
         margin-top: 1px !important;
         font-size: 24px !important;
-        font-weight: 300;
+        font-weight: 500;
         letter-spacing: 3px !important;
         line-height: 31.2px;
-        margin-left: 15px;
+        margin-left: 7px;
         margin-top: 0 !important;
     }
 
     .main-para {
         font-size: 16px;
+        margin: auto;
+        line-height: 25px;
+        margin-left: 7% !important;
+        margin-right: 7% !important;
 
+    }
+
+    .health-heading {
+        font-size: 87.6px !important;
+        margin-left: 7px !important;
+    }
+
+    .scientists-para {
+        font-size: 16px;
+        margin: auto;
+        line-height: 25px;
+        margin-left: 2% !important;
+        margin-right: 5% !important;
+    }
+
+    .we-res {
+        font-size: 16px;
+        /* margin: auto; */
+        line-height: 25px;
+        margin-left: 7% !important;
+        margin-right: 7% !important;
     }
 
     .special-a {
         font-size: 17.6px !important;
         letter-spacing: 2px !important;
         line-height: 35px !important;
-        text-align: left !important;
+
     }
+
+
+
+
+    .special-ul>ul>li {
+        margin-left: 28px !important;
+    }
+
 
     .main-heading {
         padding: 0 !important;
-        margin-left: 41px !important;
+        margin-left: 41px;
         font-size: 17.6px !important;
     }
 
     .ind-heading {
-        margin-left: 12px !important;
+        margin-left: 30px !important;
     }
 
 
@@ -1404,10 +1441,14 @@ option {
 
     .name-inputs {
         height: 130px !important;
-        display: flex;
-        width: 92% !important;
-        margin: auto;
+        width: 90% !important;
+        margin-left: 38px;
         border: 1px solid black !important;
+    }
+
+    .please-para {
+        font-size: 14px;
+        margin-left: 8%;
     }
 
     .new-client {
@@ -1454,5 +1495,55 @@ option {
         font-weight: bold !important;
         padding: 9px !important;
 
+    }
+
+    .welcome-res {
+        margin-left: 40px;
+        margin-top: 0px !important;
+    }
+
+    .about-apple {
+        margin-bottom: 12%;
+    }
+
+    .our-philos {
+        margin-right: 17%;
+    }
+
+    .philos-para {
+        font-size: 19px !important;
+        line-height: 20.4px !important;
+        margin-left: 0% !important;
+    }
+
+    .philos-hr {
+        margin-left: 21% !important;
+        width: 50%;
+        border-bottom: 1px solid #C79D65;
+    }
+
+    .services-description {
+        margin-top: 25px !important;
+    }
+
+    .services-description>ul>li {
+        font-size: 15.6px;
+        font-weight: 300;
+        /* letter-spacing: 2px; */
+        line-height: 33.4px;
+        text-decoration: none solid rgb(0, 0, 0);
+        text-transform: uppercase;
+        margin-left: 15px !important;
+
+    }
+
+    .inclu-heading {
+        margin-left: 1px !important;
+        margin-right: 9% !important;
+        margin-bottom: 15% !important;
+    }
+
+    .food-para {
+        margin-bottom: 9% !important;
     }
 }
